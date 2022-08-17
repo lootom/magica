@@ -35,6 +35,6 @@
     <public type="attr" name="trackTint"/>
     <public type="attr" name="trackTintMode"/>
     <public type="attr" name="drawableTint"/>
-    <public type="attr" name="drawableTintMode"/>
+    <public type="attr" name="drawableTintModev"/>
 
 </resources>

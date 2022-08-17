@@ -80,7 +80,7 @@ public class RippleDrawableInflateImpl extends LayerDrawableInflateImpl {
                 } else {
                     final ColorStateList cls = DrawableUtils.getTintColorList(context, attrs, R.attr.drawableTint);
                     if (cls != null) {
-                        drawable = ThemeUtils.tintDrawable(drawable, cls, DrawableUtils.getTintMode(context, attrs, R.attr.drawableTintMode));
+                        drawable = ThemeUtils.tintDrawable(drawable, cls, DrawableUtils.getTintMode(context, attrs, R.attr.drawableTintModev));
                     }
                 }
 

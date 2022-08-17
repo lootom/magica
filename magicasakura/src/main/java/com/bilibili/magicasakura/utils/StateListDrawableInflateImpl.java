@@ -77,7 +77,7 @@ class StateListDrawableInflateImpl implements DrawableInflateDelegate {
                 }
                 dr = DrawableUtils.createFromXmlInner(context, parser, attrs);
             } else {
-                ColorFilter colorFilter = DrawableUtils.getAttrColorFilter(context, attrs, R.attr.drawableTint, R.attr.drawableTintMode);
+                ColorFilter colorFilter = DrawableUtils.getAttrColorFilter(context, attrs, R.attr.drawableTint, R.attr.drawableTintModev);
                 if (colorFilter != null) {
                     if (mColorFilterMap == null) {
                         mColorFilterMap = new SparseArray<>();

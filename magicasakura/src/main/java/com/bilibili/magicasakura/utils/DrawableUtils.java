@@ -135,7 +135,7 @@ public final class DrawableUtils {
             } else if (stateResId == android.R.attr.drawable
                     || stateResId == android.R.attr.id
                     || stateResId == R.attr.drawableTint
-                    || stateResId == R.attr.drawableTintMode) {
+                    || stateResId == R.attr.drawableTintModev) {
                 // Ignore attributes from StateListDrawableItem and
                 // AnimatedStateListDrawableItem.
                 continue;
